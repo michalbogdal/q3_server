@@ -6,6 +6,19 @@ It is combination of two scripts which can be found:
 
 It installs quake 3 arena with all required files + CPMA 1.51 (so the game version is same as server version)
 
+Before triggering the script please make sure you have installed all required tools:
+
+```
+apt-get install -y screen zip unzip
+```
+
+Installation (by default quake3_arena folder will be put to home dir):
+
+```
+wget https://github.com/michalbogdal/q3_server/raw/master/quake3cpma_install.sh
+sh quake3cpma_install.sh
+```
+
 Start the server
 
 ```
