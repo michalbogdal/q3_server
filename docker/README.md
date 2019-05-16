@@ -6,20 +6,20 @@ It is combination of two scripts which can be found:
 
 It installs quake 3 arena with all required files + CPMA 1.51 (so the game version is same as server version)
 
-#Config
+# Config
 Please remember to change passwords
 
 ```
 set g_password "ChangeMe123"
 ```
 
-#Building
+# Building
 
 ```
 docker build -t q3server .
 ```
 
-#Running
+# Running
 
 ```
 docker run -p 27960:27960/udp -d q3server
