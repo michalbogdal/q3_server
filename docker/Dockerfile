@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER Michal Bogdal "michal.bogdal@gmail.com"
+MAINTAINER Michal Bogdal
 
 RUN 	apt-get update && apt-get install -y \
         zip unzip wget curl\
